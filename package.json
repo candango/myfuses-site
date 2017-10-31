@@ -1,0 +1,14 @@
+{
+  "name": "myfuses-site",
+  "version": "0.1",
+  "description": "MyFuses Framework Site",
+  "main": "index.js",
+  "repository": "https://github.com/candango/myfuses-site",
+  "author": "Flavio Garcia",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bootstrap-4": "^4.0.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.6"
+  }
+}

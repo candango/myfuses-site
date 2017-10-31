@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuit PUBLIC "-//MYFUSES//DTD CIRCUIT 0.9.9 Strict//EN"
+        "http://www.candango.org/publish/formats/circuit.dtd">
+
+<circuit>
+
+	<fuseaction name="application" >
+		<xfa name="goToCircuits" value="circuits"/>
+	</fuseaction>
+	<fuseaction name="circuits" >
+		<xfa name="goToApplication" value="application"/>
+	</fuseaction>
+	<fuseaction name="verbs" />
+	<fuseaction name="fuses" />
+
+</circuit>

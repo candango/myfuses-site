@@ -1,0 +1,11 @@
+{
+  "name": "candango/myfuses/site",
+  "type": "app",
+  "description": "Site hosting information and documentation about the MyFuses framework.",
+  "license": "Apache-2.0",
+  "require": {
+    "candango/myfuses": "dev-develop",
+    "php": ">=5.3",
+    "erusev/parsedown": "1.6.3"
+  }
+}
