@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title><?=$applicationConf['project']['title']?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -16,7 +16,7 @@
 <body>
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><?=$applicationConf['project']['name']?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>

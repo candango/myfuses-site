@@ -17,5 +17,5 @@ set_include_path(
 // creating new myfuses instance
 $myFuses = MyFuses::getInstance();
 $appRef = array("path"=>$appRoot);
-$app = $myFuses->createApplication("myfuses_site", $appRef);
+$app = $myFuses->createApplication("myfuses-site", $appRef);
 $myFuses->doProcess();

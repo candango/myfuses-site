@@ -3,7 +3,12 @@
 		"http://www.candango.org/publish/formats/circuit.dtd">
 
 <circuit>
-	
+
+	<prefuseaction>
+		<include file="actGetConf"/>
+		<include file="actBuildMenu"/>
+	</prefuseaction>
+
 	<fuseaction name="index" />
 
 	<postfuseaction>
