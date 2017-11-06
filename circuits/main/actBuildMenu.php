@@ -1,5 +1,4 @@
 <?php
 foreach (MyFuses::getApplication()->getCircuits() as $circuit) {
-    var_dump($circuit->getName());
+    $circuit->getName();
 }
-die();
