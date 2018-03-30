@@ -6,6 +6,7 @@
     <circuits>
         <circuit alias="main" path="circuits/main/" parent="" />
         <circuit alias="framework" path="circuits/framework/" parent="main" />
+        <circuit alias="config" path="circuits/config/" parent="main" />
     </circuits>
 
     <classes>
@@ -27,6 +28,10 @@
         <paramater name="strictMode" value="false" />
         <parameter name="allowImplicitCircuits" value="false" />
         -->
+        <parameter name="rewrite" value="false"/>
+        <parameter name="protocol" value="https"/>
+
+
         <parameter name="parseWithComments" value="true" />
         
         <parameter name="characterEncoding" value="utf-8"/>
