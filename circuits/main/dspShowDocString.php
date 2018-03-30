@@ -1,6 +1,6 @@
 <main role="main">
     <div class="container">
-        <?=$docString?>
+            <?=$docString?>
     </div> <!-- /container -->
 </main>
 
