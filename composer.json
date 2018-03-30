@@ -5,7 +5,8 @@
   "license": "Apache-2.0",
   "require": {
     "candango/myfuses": "dev-develop",
-    "php": ">=5.3",
-    "erusev/parsedown": "1.6.3"
+    "erusev/parsedown": "1.7.1",
+    "gitonomy/gitlib": "v1.0.2",
+    "php": ">=5.3"
   }
 }
