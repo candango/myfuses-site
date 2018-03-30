@@ -18,7 +18,7 @@ $docPath = implode("/",
 $parsedown = new Parsedown();
 
 function convertXFAs($s) {
-    return preg_replace_callback('/xfa\[(.*?)\]/', function ($matches) {
+    return preg_replace_callback('#"xfa://(.*)"#', function ($matches) {
         return MyFuses::getMySelfXfa($matches[1]);
     }, $s);
 }
