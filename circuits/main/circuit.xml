@@ -7,13 +7,7 @@
 	<prefuseaction>
 		<include file="actGetConf"/>
 		<include file="actBuildMenu"/>
-		<do action="menu"/>
 	</prefuseaction>
-
-	<fuseaction name="menu" >
-		<xfa name="goToIndex" value="main.index"/>
-		<xfa name="goToApplication" value="framework.application"/>
-	</fuseaction>
 
 	<fuseaction name="index" />
 

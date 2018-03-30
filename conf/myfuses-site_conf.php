@@ -2,12 +2,9 @@
     "project" => array(
         "title" => "MyFuses Framework",
         "name" => "MyFuses",
-        "copyright" => "&copy; Candango Open Source Group 2017"
+        "copyright" => "Candango Open Source Group - &copy; Flavio Garcia 2018"
     ),
-    "menu" => array(
-        array(
-            "name" => "Application",
-            "xfa" => "goToApplication"
-        )
+    "top_menu" => array(
+        ""
     )
 );
